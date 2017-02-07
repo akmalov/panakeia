@@ -1,0 +1,94 @@
+.product-details {
+  height: 1020px;
+  padding-top: 65px;
+  background: #fff;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 580px;
+    padding-top: 45px;
+    margin-bottom: 120px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 588px;
+      height: 406px;
+      border: 1px solid #dbdbdb;
+    }
+
+    &_left {
+      align-self: flex-start;
+
+      &:after {
+        top: 0;
+        left: 627px;
+      }
+    }
+
+    &_right {
+      align-self: flex-end;
+
+      &:after {
+        top: 0;
+        left: -632px;
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-family: RobotoSlab;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #191b29;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  &__desc {
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.875;
+    color: #191b29;
+  }
+
+  &__btn {
+    padding: 10px 70px 0 75px;
+    font-family: RobotoSlab;
+    font-size: 18px;
+    line-height: 1.66;
+    color: #fff;
+
+    &_red {
+      background: #dd4b2b;
+
+      &:hover {
+        background: darken(#dd4b2b, 10%);
+      }
+    }
+
+    &_purple {
+      background: #4b4e73;
+
+      &:hover {
+        background: darken(#4b4e73, 10%);
+      }
+    }
+  }
+}
