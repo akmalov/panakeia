@@ -1,0 +1,59 @@
+.newsletter {
+  height: 380px;
+  background: url('../img/bg/newsletter.jpg') center center / cover;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+  }
+
+  &__title {
+    margin-bottom: 5px;
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.6;
+    color: #fff;
+  }
+
+  &__desc {
+    margin-bottom: 40px;
+    width: 550px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #fff;
+  }
+}
+
+.form-newsletter {
+  position: relative;
+
+  &__email {
+    width: 345px;
+    height: 54px;
+    padding-left: 35px;
+    border-radius: 54px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: RobotoSlab;
+    font-size: 18px;
+    line-height: 1.66;
+    color: #f3f4f6;
+  }
+
+  &__sign-up{
+    position: absolute;
+    top: 2px;
+    left: 295px;
+    padding: 0 72px 0 75px;
+    background: #fff;
+    color: #612316;
+
+    &:hover {
+      background: darken(#fff, 10%);
+    }
+  }
+}

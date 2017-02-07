@@ -1,6 +1,6 @@
 .main {
   height: 1320px;
-  background: url('../img/bg/main.jpg');
+  background: url('../img/bg/main.jpg') center center / cover;
 
   .container {
     display: flex;
