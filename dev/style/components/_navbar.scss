@@ -1,12 +1,16 @@
 .nav {
+  max-width: 770px;
 
   &__list {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 0;
   }
 
   &__item {
     margin-right: 45px;
+    margin-bottom: 15px;
 
     &:last-child {
       margin-right: 0;
@@ -24,7 +28,7 @@
 }
 
 .btn_nav {
-  padding: 12px 24px;
+  padding: 14px 24px 12px;
   color: #fff;
   background: #dd4b2b;
 

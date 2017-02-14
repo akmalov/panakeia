@@ -1,11 +1,16 @@
 .header {
-  height: 148px;
+  min-height: 148px;
   background: #edeff1;
 
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 148px;
+  }
+
+  &__company {
+    max-width: 250px;
   }
 
   &__title {

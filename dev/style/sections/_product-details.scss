@@ -1,11 +1,11 @@
 .product-details {
-  height: 1020px;
   padding-top: 65px;
   background: #fff;
 
   &__list {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   &__item {
@@ -14,6 +14,7 @@
     flex-direction: column;
     align-items: flex-start;
     width: 580px;
+    min-height: 410px;
     padding-top: 45px;
     margin-bottom: 120px;
 
